@@ -21,6 +21,9 @@
     <meta name="author" content="">
 
     <title>My online shopping -${title}</title>
+    
+    
+    <script> window.menu='${title}'</script>
 
     <!-- Bootstrap Core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
@@ -73,6 +76,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="${js}/bootstrap.min.js"></script>
+    
+    <!-- Self Coded JavaScript -->
+    <script src="${js}/myapp.js"></script>
 
 </body>
 
