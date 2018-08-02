@@ -10,7 +10,8 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd
    ">
    
-   <context:component-scan base-package="net.kzn.Myonlineshopping.controller"></context:component-scan>
+   <context:component-scan base-package="net.kzn.Myonlineshopping.controller"/>
+   <context:component-scan base-package="net.kzn.backendshopping.daoimpl"/>
    
    
    <bean  id="viewResolver"
