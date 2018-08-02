@@ -27,6 +27,10 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Core lumen theme CSS -->
+    
+    <link href="${css}/bootsstrap-readable-theme.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="${css}/myapp.css" rel="stylesheet">
@@ -41,12 +45,15 @@
 </head>
 
 <body>
-
+    
+    
+    <div class="wrapper">
     <!-- Navigation -->
     <%@include file="./shared/navbar.jsp" %>
     
     
     <!-- Page Content -->
+    <div class ="content">
    <!-- Loading the home content -->
    <c:if test="${userClickHome==true }">
     <%@include file="home.jsp" %>
@@ -66,6 +73,7 @@
     
     </c:if>
     
+    </div>
     <!-- -Footer comes here -->
     <%@include file="./shared/footer.jsp" %>
 
@@ -79,7 +87,7 @@
     
     <!-- Self Coded JavaScript -->
     <script src="${js}/myapp.js"></script>
-
+</div> 
 </body>
 
 </html>
